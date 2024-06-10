@@ -1,0 +1,83 @@
+/* SignUp.css */
+.page-container {
+  background-color: #6781c3; /* Change the background color for the entire page */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Change the background color for the entire container */
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+  
+  /* Center the button within the form */
+  button {
+    background-color: #6781c3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: auto; /* Push the button to the bottom within the container */
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #becbed;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .alert {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  button:hover {
+    background-color: #becbed; /* Change the background color on hover */
+  }
+
+  .input-field {
+    width: 100%; /* You can adjust the width as needed */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+
+

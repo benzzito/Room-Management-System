@@ -1,0 +1,50 @@
+/* AdminNotifications.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Set background color to white */
+  overflow: auto; /* Make the container scrollable */
+  max-height: 400px; /* Set a maximum height for the container */
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px; /* Reduce margin for spacing */
+  color: #3e4a75; /* Dark blue background */
+  padding: 10px;
+}
+
+.notifications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notifications-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow to each notification */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.notifications-list li:hover {
+  background-color:#3e4a75; /* Change background color on hover */
+  color: white;
+}
+
+.notifications-list li:last-child {
+  margin-bottom: 0;
+}
+
+.notification-text {
+  font-weight: bold;
+}
+
+
+  
+  
+  

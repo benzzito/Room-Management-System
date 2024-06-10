@@ -1,0 +1,78 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white; /* Set the background color to white */
+  border-radius: 10px; /* Increase border radius for the chat container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  padding: 30px; /* Increase padding for the chat container */
+  max-width: 600px; /* Increase the maximum width as needed */
+  margin: 0 auto; /* Center the chat container */
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add more spacing between messages */
+  padding: 20px; /* Increase padding for the messages container */
+  overflow-y: auto; /* Add a scrollbar for long chats */
+  max-height: 500px; /* Increase the maximum height for the messages */
+}
+
+.message {
+  border-radius: 12px; /* Increase border radius for messages */
+  max-width: 95%; /* Increase the maximum width for messages */
+  padding: 20px; /* Increase padding for messages */
+  font-size: 18px; /* Increase the font size */
+}
+
+.customer-message {
+  background-color: #4285f4;
+  color: white;
+  align-self: flex-start;
+  border-top-left-radius: 0; /* Adjust border radius for customer messages */
+}
+
+.admin-message {
+  background-color: #e0e0e0;
+  color: black;
+  align-self: flex-end;
+  border-top-right-radius: 0; /* Adjust border radius for admin messages */
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Increase the gap between input elements */
+  margin-top: 30px; /* Increase the margin between messages and the input */
+  padding: 20px; /* Increase padding for the input */
+}
+
+/* Add hover effects for messages */
+.message:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.chat-input input[type="text"] {
+  flex: 1; /* Make the input field expand to fill available space */
+  padding: 15px; /* Increase padding for the input field */
+  border: 2px solid #ccc; /* Add a light border */
+  border-radius: 8px; /* Add a border radius */
+  font-size: 18px; /* Increase the font size */
+}
+
+.chat-input button {
+  background-color: #4285f4; /* Dark blue color for the "Send" button */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 8px; /* Add a border radius */
+  padding: 15px 25px; /* Increase padding for the "Send" button */
+  cursor: pointer;
+  font-size: 18px; /* Increase the font size */
+}
+
+.chat-input button:hover {
+  background-color: #3579e7; /* Dark blue color on hover */
+}
+

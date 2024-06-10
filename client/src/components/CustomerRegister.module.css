@@ -1,0 +1,132 @@
+/* CustomerRegister.module.css */
+
+/* Global Styles */
+body {
+    background-color: #6781c3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Main Registration Container */
+  .container {
+    background-color: #6781c3;
+    height: 1004px;
+    width: 1440px;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    top: 27px;
+    left: 779px;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    color: #3e4a75;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    top: 58px;
+    left: 470px;
+  }
+  
+  .paragraph {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 106px;
+    left: 470px;
+  }
+  
+  /* Input Group Styles */
+  .input-group {
+    background-color: #ffffff;
+    border: 2px solid #d1d1d1bf;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #00000080;
+    height: 60px;
+    width: 500px;
+    position: absolute;
+    left: 470px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  /* Adjusting positions for each input group */
+  .company-input {
+    top: 206px;
+  }
+  
+  .first-name-input {
+    top: 287px;
+  }
+  
+  .last-name-input {
+    top: 368px;
+  }
+  
+  .email-input {
+    top: 449px;
+  }
+  
+  .password-input {
+    top: 530px;
+  }
+  
+  .confirm-password-input {
+    top: 611px;
+  }
+  
+  /* Role Selector Styles */
+  .role-selector {
+    position: absolute;
+    top: 692px;
+    left: 470px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+  }
+  
+  /* Create Account Button */
+  .create-account-btn {
+    background-color: #3e4a75;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #00000080;
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    top: 818px;
+    left: 471px;
+    cursor: pointer;
+  }
+  
+  /* Footer Section */
+  .login-prompt {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 913px;
+    left: 471px;
+  }
+  
+  .login-link {
+    color: #3e4a75;
+  }
+  

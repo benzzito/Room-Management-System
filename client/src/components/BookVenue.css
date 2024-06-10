@@ -1,0 +1,11 @@
+.steps-container{ 
+    border:  solid rgb(255, 255, 255);
+    border-width: 650px 600px 0px 600px;
+    border-radius: 10px;
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px; /* Add margin to separate cards vertically */
+}
+
+.step2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     
+}

@@ -1,0 +1,52 @@
+/* Style for the notifications container */
+#Notifications {
+  max-width: 600px; /* Increase the maximum width */
+  margin: 0 auto;
+  padding: 30px; /* Increase padding for the container */
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 12px; /* Increase border radius for the container */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); /* Increase box shadow */
+  overflow-y: auto; /* Add a vertical scrollbar for overflow */
+  max-height: 500px; /* Increase the maximum height for the container */
+}
+
+/* Style for the heading */
+#Notifications h2 {
+  font-size: 28px; /* Increase font size for the heading */
+  font-weight: bold;
+  margin-bottom: 20px; /* Increase margin-bottom */
+  color: #333; /* Text color */
+}
+
+/* Style for the notifications list */
+#Notifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each notification item */
+#Notifications li {
+  padding: 20px; /* Increase padding for each notification item */
+  margin-bottom: 20px; /* Increase margin-bottom */
+  border: 2px solid #ccc; /* Increase border width */
+  border-radius: 12px; /* Increase border radius */
+  background-color: #fff; /* Background color for each notification item */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Increase box shadow */
+  transition: background-color 0.2s ease-in-out; /* Add a smooth transition */
+}
+
+/* Style for the notifications text */
+#Notifications li p {
+  font-size: 20px; /* Increase font size for the text */
+  color: #555; /* Text color */
+}
+
+/* Hover effect for notification items */
+#Notifications li:hover {
+  background-color: #4285f4; /* Dark blue background color on hover */
+  color: #fff; /* Text color on hover */
+  cursor: pointer;
+}
+
+

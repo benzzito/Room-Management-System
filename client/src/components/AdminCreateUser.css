@@ -1,0 +1,71 @@
+/* CSS for AdminCreateUser component */
+.AdminCreateUser {
+  background-color: white;
+  padding: 40px; /* Increased padding for larger content */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 500px; /* Increased width for larger content */
+  margin: 0 auto;
+}
+
+.AdminCreateUser h1 {
+  font-size: 36px; /* Increased font size for the title */
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin for the title */
+}
+
+.AdminCreateUser ul {
+  list-style: none;
+  padding: 0;
+}
+
+.AdminCreateUser li {
+  margin-bottom: 20px; /* Increased margin between list items */
+}
+
+.AdminCreateUser input[type="text"],
+.AdminCreateUser input[type="email"],
+.AdminCreateUser input[type="password"],
+.AdminCreateUser select {
+  width: 100%;
+  padding: 20px; /* Increased padding for input fields */
+  background-color: lightgrey;
+  border: 2px solid #ccc; /* Increased border width for input fields */
+  border-radius: 10px; /* Increased border radius for input fields */
+}
+
+.AdminCreateUser select {
+  background-color: white;
+  color: #333;
+}
+
+.AdminCreateUser select:focus {
+  outline: none;
+}
+
+.AdminCreateUser button {
+  width: 100%;
+  padding: 20px; /* Increased padding for the button */
+  background-color: #3e4a75; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increased border radius for the button */
+  cursor: pointer;
+}
+
+.AdminCreateUser button:hover {
+  background-color: #3579d8; /* Darker blue on hover */
+}
+
+.AdminCreateUser a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #3e4a75; /* Blue color for links */
+  margin-top: 20px; /* Increased top margin for links */
+  font-weight: bold;
+  font-size: 20px; /* Increased font size for links */
+}
+
+/* ... Rest of the CSS Rules ... */
+

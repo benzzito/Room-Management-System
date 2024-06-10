@@ -1,0 +1,61 @@
+#SettingsMenu {
+    background-color: white; /* Background color for the SettingsMenu */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  #SettingsMenu h1 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  #SettingsMenu ul {
+    list-style: none; /* Remove bullets from the ul */
+    padding: 0;
+  }
+  
+  #SettingsMenu ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+  }
+  
+  #SettingsMenu ul li:hover {
+    color: blue; /* Color change on hover, adjust as needed */
+  }
+  
+  #SettingsMenu ul li.active {
+    background-color: lightblue; /* Background color for the active tab */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: Rounded corners */
+  }
+  
+  #SettingsMenu div {
+    background-color: lightblue; /* Background color for the content area */
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  #SettingsMenu div h2 {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  #SettingsMenu div p {
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+  
+  #SettingsMenu input[type="file"] {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  #SettingsMenu button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: blue; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    cursor: pointer;
+  }
+  
+  #SettingsMenu button:hover {
+    background-color: darkblue; /* Button background color on hover */
+  }
+  

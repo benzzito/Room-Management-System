@@ -1,0 +1,205 @@
+/* RoomPage.css */
+
+
+/* Delete Room Page Container */
+.DeleteRoomPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  background-color: white;
+  padding: 40px; /* Increased padding */
+  overflow-y: auto;
+  min-height: 80vh; /* 100% of viewport height */
+}
+
+/* Delete Room Page Title */
+.DeleteRoomPage h1 {
+  color: #3e4a75;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 75px; /* Increased font size */
+  font-weight: 700;
+  text-shadow: 0px 5px 5px #00000040;
+  margin: 0 0 40px 0; /* Increased margin */
+  text-align: center;
+}
+
+/* Search Rooms Container */
+.DeleteRoomPage > div:nth-child(2) {
+  background-color: white;
+  padding: 40px; /* Increased padding */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: black;
+  text-align: center;
+}
+
+/* Search Rooms Title */
+.DeleteRoomPage > div:nth-child(2) > h2 {
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px; /* Increased margin */
+}
+  
+  /* Search Input */
+  .DeleteRoomPage > div:nth-child(2) input[type="text"] {
+    width: 100%; /* Full width for text input */
+    padding: 10px; /* Add padding to input */
+    font-family: "Inter-SemiBold", Helvetica; /* Input font family */
+    font-size: 20px; /* Input font size */
+    font-weight: 600; /* Input font weight */
+    background-color: #f4f4f4; /* Input background color */
+  }
+  
+  /* Room List Container */
+  .DeleteRoomPage > div:nth-child(3) {
+    background-color: #3e4a75; /* Background color */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a lifted effect */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center the content */
+  }
+  
+  /* Room List Title */
+  .DeleteRoomPage > div:nth-child(3) > h2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  /* Room List (Checkbox List) */
+  .DeleteRoomPage ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+  }
+  
+  .DeleteRoomPage li {
+    display: flex; /* Use flex layout for the list item */
+    align-items: center; /* Center vertically within the list item */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-family: "Inter-SemiBold", Helvetica; /* Label font family */
+    font-size: 20px; /* Label font size */
+    font-weight: 600; /* Label font weight */
+    padding: 10px; /* Add padding to provide clickable area */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  .DeleteRoomPage li:hover {
+    background-color: #3e4a75; /* Background color on hover */
+    color: white; /* Text color on hover */
+  }
+  
+  /* Room List Item Labels (Room Name) */
+  .DeleteRoomPage label {
+    display: block;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-family: "Inter-SemiBold", Helvetica; /* Label font family */
+    font-size: 20px; /* Label font size */
+    font-weight: 600; /* Label font weight */
+  }
+  
+  /* Room Details Container */
+  .DeleteRoomPage > div:nth-child(4) {
+    background-color: #3e4a75; /* Background color */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a lifted effect */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center the content */
+  }
+  
+  /* Room Details Title */
+  .DeleteRoomPage > div:nth-child(4) > h2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  /* Room Details Label and Content */
+  .DeleteRoomPage p {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for individual labels (e.g., Room Name, Room Size, etc.) */
+  .DeleteRoomPage p strong {
+    font-weight: 600;
+  }
+  
+  /* Delete Room Button */
+  .DeleteRoomPage button {
+    background-color: #3e4a75; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Button padding */
+    font-family: "Inter-SemiBold", Helvetica; /* Button font family */
+    font-size: 20px; /* Button font size */
+    font-weight: 600; /* Button font weight */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 20px; /* Add margin above the button */
+  }
+  
+  /* Confirmation Dialog */
+  .DeleteRoomPage > div:nth-child(6) {
+    background-color: #3e4a75; /* Background color */
+    padding: 20px; /* Padding for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a lifted effect */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center the content */
+  }
+  
+  /* Delete Room Dialog Text */
+  .DeleteRoomPage > div:nth-child(6) p {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  /* Delete Room Dialog Buttons */
+  .DeleteRoomPage > div:nth-child(6) button {
+    background-color: #3e4a75; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Button padding */
+    font-family: "Inter-SemiBold", Helvetica; /* Button font family */
+    font-size: 20px; /* Button font size */
+    font-weight: 600; /* Button font weight */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  
+  /* Add this CSS to style the "Back to Dashboard" link */
+  .EditRoomPage-a {
+    display: inline-block;
+    margin-top: 40px; /* Increased margin */
+    background-color: #3e4a75;
+    color: white;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 28px; /* Increased font size */
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px; /* Increased padding */
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .EditRoomPage-a:hover {
+    background-color: #2a2f4e;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  

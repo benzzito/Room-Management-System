@@ -1,0 +1,125 @@
+
+
+/* Create New Room Container */
+.CreateRoomMenu {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px; /* Increase the padding to create more space within the container */
+  width: 1000PX; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally on the page */
+  border-radius: 5px;
+  max-width: 1200px;
+  height: 680px;
+}
+
+/* List of current rooms */
+/* List of current rooms */
+.CreateRoomMenu .RoomsList {
+  width: 48%;
+  padding: 20px;
+  border-right: 1px solid #BECBED; /* Add a vertical border on the right to separate the list and form */
+  overflow-y: auto;
+  height: 100%;
+}
+
+.CreateRoomMenu .RoomsList h2 {
+  font-size: 24px; /* Adjust the font size for the heading */
+  color: #3e4a75; /* Heading color */
+  margin-bottom: 15px;
+}
+
+.CreateRoomMenu .RoomsList ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.CreateRoomMenu .RoomsList li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f5f5f5; /* Background color for list items */
+  border: 1px solid #ddd; /* Border for list items */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.CreateRoomMenu .RoomsList li:hover {
+  background-color: #3e4a75; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.CreateRoomMenu .RoomsList li:last-child {
+  margin-bottom: 0; /* Remove margin for the last item */
+}
+
+
+/* Add new room form */
+.CreateRoomMenu .AddRoomForm {
+  width: 48%;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.CreateRoomMenu .AddRoomForm h3 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.CreateRoomMenu .AddRoomForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateRoomMenu .AddRoomForm label {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.CreateRoomMenu .AddRoomForm input {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+.CreateRoomMenu .AddRoomForm button {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #3e4a75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Back to Dashboard link */
+.CreateRoomMenu a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e4a75;
+  color: white;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.CreateRoomMenu a:hover {
+  text-decoration: none;
+  background-color: #264159; /* Change the background color on hover if needed */
+}

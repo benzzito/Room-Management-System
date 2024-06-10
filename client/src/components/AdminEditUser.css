@@ -1,0 +1,153 @@
+.AdminEditUser {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 8009px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Center everything horizontally */
+    height: 60vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 100%; /* Allow the containers to take up full width */
+    max-height: fit-content;
+  }
+  
+  .userListContainer,
+  .details-display-container,
+  .edit-user-container {
+    flex: 1;
+    min-width: 200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    max-width: calc(33.33% - 20px); /* Ensure each container takes up 33.33% with some gap */
+  }
+  
+  /* Adjusting styles for the Search User and User List container */
+  .userListContainer {
+    max-width: calc(66.66% - 20px); /* Make this container 66.66% wide */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Add vertical scroll when the content overflows */
+    max-height: 400px; /* Set a max height for scrollability */
+  }
+  
+  .userListContainer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .userListContainer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0; /* Remove the margin on top of the list */
+  }
+  
+  .userListContainer ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .userListContainer label {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #3e4a75;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .userListContainer label:hover {
+    background-color:#3e4a75;
+    color: white;
+  }
+  
+  .userListContainer input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* CSS for input fields and text boxes */
+  .AdminEditUser input[type="text"],
+  .AdminEditUser input[type="email"],
+  .AdminEditUser select {
+    background-color: #f4f4f4;
+    border: 0.4px solid #000000;
+    border-radius: 6px;
+    height: 40px; /* Adjust the height as needed */
+    padding: 5px; /* Add some padding for better appearance */
+    width: 100%; /* Ensure the input fields span the entire width */
+  }
+  
+  /* CSS for the User Details container */
+  .details-display-container {
+    flex-basis: 48%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-display-container h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .details-display-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  /* Add hover effect to details */
+  .details-display-container p:hover {
+    background-color: #3e4a75;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add spacing between lines */
+  .details-display-container p:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  /* Back to Dashboard button styles */
+.edit-user-container button[type="submit"],
+.edit-user-container a {
+  width: 100%;
+  padding: 10px;
+  background-color: #3e4a75; /* Dark blue background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Add some top margin to separate the buttons */
+  font-size: 16px; /* Adjust the font size as needed */
+  text-align: center; /* Center the text horizontally */
+  text-decoration: none; /* Remove underlines from links */
+  display: inline-block; /* Make the link a block element */
+}
+
+/* Hover effect for the buttons */
+.edit-user-container button[type="submit"]:hover,
+.edit-user-container a:hover {
+  background-color: #3579d8; /* Darker blue on hover */
+}

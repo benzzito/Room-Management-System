@@ -1,0 +1,128 @@
+/* Style for the message list */
+.message-list {
+  overflow-y: auto;
+  max-height: 300px; /* Adjust the maximum height as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.message-list .message {
+  padding: 5px;
+  margin: 5px 0;
+  max-width: 70%;
+}
+
+/* Style for the AdminMessages component */
+.AdminMessages {
+  display: flex;
+}
+
+.AdminMessages > .chat-list {
+  flex: 1;
+  padding: 20px;
+}
+
+.AdminMessages > .chat-display {
+  flex: 3;
+  padding: 20px;
+}
+
+.AdminMessages h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.AdminMessages ul {
+  list-style: none;
+  padding: 0;
+}
+
+.AdminMessages ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.AdminMessages ul li:hover {
+  color: blue;
+}
+
+.AdminMessages input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.AdminMessages button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.AdminMessages button:hover {
+  background-color: darkblue;
+}
+
+/* Message styles */
+.sent {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 4px;
+  margin-left: auto;
+  padding: 8px;
+  max-width: 70%;
+}
+
+.received {
+  background-color: #e0e0e0;
+  color: black;
+  border-radius: 4px;
+  padding: 8px;
+  max-width: 70%;
+}
+
+/* Add any other styles as needed */
+/* Updated CSS for the AdminMessages component */
+
+/* Style for the customer chat list container */
+/* Updated CSS for the AdminMessages component */
+
+/* Style for the customer chat list container */
+/* Updated CSS for the AdminMessages component */
+
+/* Style for the customer chat list container */
+.customer-chat-list {
+  background-color: white;
+  max-height: 400px; /* Set a fixed maximum height */
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  width: 900px; /* Set a fixed width to accommodate button text */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style for the customer chat list items (chats) */
+.customer-chat-list ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white; /* White background */
+  transition: background-color 0.3s; /* Smooth hover transition */
+  border-bottom: #4285f4;
+}
+
+.customer-chat-list ul li:hover {
+  background-color: #4285f4; /* Blue background on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+
+/* Style for the chat display container */
+.chat-display {
+  background-color: white; /* White background */
+  height: 400px; /* Set the same height as the chat list container */
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  width: 100%; /* Adjust the width to fill the available space */
+  padding: 10px;
+}

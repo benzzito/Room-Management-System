@@ -1,0 +1,91 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 950px; /* Adjust the width to your desired value */
+  background-color: white;
+  text-align: center; /* Center the content horizontally */
+  padding: 20px; /* Added padding for spacing */
+  margin-top: 20px; /* Add margin to separate cards vertically */
+  max-height: 700px; /* Adjust the maximum height to your desired value */
+  }
+
+  .product-card img {
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: auto; 
+  }
+  
+  .product-card-content {
+    padding: 10px; /* Increased padding for better spacing */
+  }
+  
+  .product-card-content h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-card-content p {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .product-card-content .features {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-card-content .features .size {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .product-card-content .features .price {
+    flex: 1;
+  }
+  
+  .product-card-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card-content button:hover {
+    background-color: #45a049;
+  }
+  
+  .centered-heading {
+    text-align: center; /* Center horizontally */
+    }
+
+  .product-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; 
+  }
+
+  .centered-heading {
+    color: #FFF; /* Change this to the color you prefer */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  }
+  
+  .centered-heading:hover {
+    color: #6781c3; /* Change this to the color you prefer on hover */
+  }
+
+  .centered-heading {
+    text-align: center;
+  }
+
+  .product-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center content text horizontally */
+  margin-left: auto; /* Move the container to the right */
+  }
